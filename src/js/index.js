@@ -11,7 +11,7 @@ const excuseGenerator = () => {
     " ate my shoes ",
     " crashed my car ",
     "made a big mess in his cage ",
-    "was chasing squirrels"
+    "was chasing squirrels "
   ];
   let when = [
     " yesterday.",
