@@ -10,14 +10,14 @@ const excuseGenerator = () => {
   let did_what = [
     " ate my shoes ",
     " crashed my car ",
-    "made a big mess in his cage ",
-    "was chasing squirrels "
+    " made a big mess in his cage ",
+    " was chasing squirrels "
   ];
   let when = [
     " yesterday.",
     " the day before.",
-    "when I was trying to leave.",
-    "when you called."
+    " when I was trying to leave.",
+    " when you called."
   ];
 
   let outcome =
@@ -28,4 +28,6 @@ const excuseGenerator = () => {
   return outcome;
 };
 
-document.querySelector("#the-excuse").innerHTML = excuseGenerator();
+document.querySelector(
+  "#the-excuse"
+).innerHTML = `<h1> ${excuseGenerator()} </h1>`;
